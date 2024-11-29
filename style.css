@@ -223,6 +223,11 @@ a {
   --bs-btn-disabled-border-color: #8C907E;
 }
 
+.text-rotate {
+  width: 330px;  
+  height: auto;  
+}
+
 #btn-spotify{
   background-color: var(--primary-100); /* Verde de Spotify */
   color: white;
@@ -233,6 +238,52 @@ a {
 #btn-spotify:hover {
   background-color: var(--primary-300); /* Un tono más brillante de verde para el hover */
   border: none;
+}
+
+.icon-size {
+  font-size: 38px; /* Tamaño específico */
+  color: var(--primary-200); /* Color definido por la variable */
+}
+#estadisticasTitulo{
+  color: var(--primary-300);
+}
+
+#solicitarPres{
+  color: var(--primary-100);
+  text-shadow: 1px 1px 2px black, -1px -1px 2px; 
+}
+
+#btn-pres{
+background-color: var(--primary-100);
+border: none;
+}
+
+#btn-pres:hover {
+  background-color: var(--primary-300); /* Un tono más brillante de verde para el hover */
+  border: none;
+}
+
+#siguenos{
+background-color: var(--primary-100);
+border: none;
+}
+
+#siguenos:hover {
+  background-color: var(--primary-300); /* Un tono más brillante de verde para el hover */
+  border: none;
+}
+
+#cita{
+  padding-top: 10px;
+}
+
+.citaFotografa{
+  color: var(--accent-100);
+  font-style: italic;
+}
+
+.titulosGaleria{
+  padding-top: 40px;
 }
 
 .pagination {
@@ -341,7 +392,16 @@ a {
   padding-top: 110px;
 }
 
+#galeriaSol{
+  color: var(--primary-200);
+  font-weight: 500;
+  font-size: 50px;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);*/
+}
 
+#sobreNosotros{
+  font-size: 100px;
+}
 
 /* Aumentar el tamaño de la imagen sin afectar el navbar */
 .logo-img {
@@ -349,6 +409,9 @@ a {
   width: 100px; /* Mantener proporción de la imagen */
   margin-top: 10px; /* Ajusta el margen para alinear mejor la imagen */
   margin-bottom: 10px;
+}
+.widget-title{
+  color: var(--primary-200);
 }
 
 .text-decoration-none{
@@ -362,6 +425,19 @@ a {
 
 #discoTitulo{
   color: var(--primary-200)
+}
+
+/* Clase para las imágenes con el efecto hover */
+.imgsGaleria {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imgsGaleria:hover {
+  transform: translateY(-10px); /* Levanta la imagen */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra para el efecto */
+}
+#imagenPrincipal{
+  margin-top: 0px;
 }
 
 /* dark theme */
